@@ -400,7 +400,6 @@ nav {
 }
 
 #portfolio .portfolio-images .item {
-    height: 350px;
     position: relative;
     border-radius: 5px;
     overflow: hidden;
@@ -442,7 +441,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 222;
-    color: #222222;
+    color: #ffffff;
     font-size: 24px;
     transition: 0.4s;
     padding: 10px;
