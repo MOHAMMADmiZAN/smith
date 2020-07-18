@@ -462,6 +462,7 @@ nav {
 #portfolio .portfolio-images i:hover {
     background: #ffffff;
     color: #1db0ed;
+    border: 2px solid #f7f7f7;
 }
 
 /*================================================================== portfolio-part-End*/
