@@ -205,9 +205,11 @@ nav {
 
 }
 
-#about .left-side .img img {
-    width: 550px;
+#about .left-side {
+    display: flex;
+    align-items: center;
 }
+
 
 #about .right-side {
     display: flex;
