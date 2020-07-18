@@ -27,6 +27,7 @@ body {
 nav {
     position: absolute !important;
     width: 100%;
+    z-index: 9999;
 }
 
 .navbar-nav .nav-item a {
@@ -198,7 +199,7 @@ nav {
 
 
 #about {
-    padding: 60px;
+    padding: 120px;
     box-shadow: 0 0 5px 0 #777777;
 
 
@@ -218,6 +219,7 @@ nav {
     font-weight: 600;
     font-size: 20px;
     color: #1db0ed;
+    margin-bottom: 15px;
 }
 
 #about .right-side .text h2 {
@@ -315,17 +317,20 @@ nav {
 
 /*================================================================== Service-part-start*/
 /*                                                                                =============================================================================================*/
-#services{
+#services {
     padding: 120px;
 
 }
-#services .service-title h3{
+
+#services .service-title h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: #1db0ed;
+    margin-bottom: 15px;
 }
-#services .service-title h2{
+
+#services .service-title h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -366,20 +371,93 @@ nav {
     animation: skill 2s linear infinite;
 }
 @keyframes skill {
-0%{
-    border-bottom: 2px solid #1db0ed;
-}
-    50%{
+    0% {
+        border-bottom: 2px solid #1db0ed;
+    }
+    50% {
         border-bottom: 4px solid #1db0ed;
     }
-    100%{
+    100% {
         border-bottom: 8px solid #1db0ed;
     }
 }
-#services .service-tab:hover i{
+
+#services .service-tab:hover i {
     color: #1db0ed;
 }
+
 /*================================================================== Service-part-End*/
+/*                                                                                =============================================================================================*/
+
+/*================================================================== portfolio-part-start*/
+/*                                                                                =============================================================================================*/
+
+#portfolio {
+    padding: 120px;
+
+}
+
+#portfolio .portfolio-images .item {
+    height: 350px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.4s;
+    margin-top: 60px;
+    padding: 0;
+
+}
+
+#portfolio .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1db0ed;
+    margin-bottom: 15px;
+}
+
+#portfolio .text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #222222;
+}
+
+#portfolio .portfolio-images .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 176, 237, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: 0.4s;
+}
+
+#portfolio .portfolio-images i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 222;
+    color: #222222;
+    font-size: 24px;
+    transition: 0.4s;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+#portfolio .portfolio-images .item:hover .overlay {
+    transform: scale(1);
+}
+
+#portfolio .portfolio-images i:hover {
+    background: #ffffff;
+    color: #1db0ed;
+}
+
+/*================================================================== portfolio-part-End*/
 /*                                                                                =============================================================================================*/
 
 
