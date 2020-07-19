@@ -26,8 +26,6 @@ $('.pro-slider').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
     prevArrow: '<i class="fas fa-angle-double-left prev"></i>',
     nextArrow: '<i class="fas fa-angle-double-right next"></i>',
     centerMode: true,
