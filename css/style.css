@@ -347,7 +347,8 @@ nav {
     color: #222222;
     margin-bottom: 30px;
 }
-#services .service-tab{
+
+#services .service-tab {
     margin-top: 30px;
     text-align: center;
     padding: 15px;
@@ -357,30 +358,34 @@ nav {
     transition: 0.4s;
 
 
-
 }
-#services .service-tab .icon i{
+
+#services .service-tab .icon i {
     font-size: 32px;
     color: #222222;
     padding: 15px;
     transition: 0.4s;
 }
-#services .service-tab .name h5{
+
+#services .service-tab .name h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 20px;
-    padding:15px;
+    padding: 15px;
 }
-#services .service-tab .text p{
+
+#services .service-tab .text p {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
 }
-#services .service-tab:hover{
+
+#services .service-tab:hover {
     background: #ffffff;
     animation: skill 2s linear infinite;
 }
+
 @keyframes skill {
     0% {
         border-bottom: 4px solid #1db0ed;
@@ -533,6 +538,114 @@ nav {
 }
 
 /*================================================================== portfolio-part-End*/
+/*                                                                                =============================================================================================*/
+
+/*================================================================== test-part-start*/
+/*                                                                                =============================================================================================*/
+#Feedback {
+    padding: 120px;
+    border-radius: 5px;
+}
+
+#Feedback .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1db0ed;
+    margin-bottom: 15px;
+}
+
+#Feedback .text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #222222;
+}
+
+#Feedback .customer-tab {
+    padding: 30px;
+    background: rgba(29, 176, 237, 0.1);
+    text-align: center;
+    margin-top: 60px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+#Feedback .customer-tab .images {
+    background: rgba(29, 176, 237, 0.5);
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.4s;
+
+}
+
+#Feedback .customer-tab .images img {
+    padding-top: 15px;
+}
+
+#Feedback .customer-tab .icon {
+    padding: 15px;
+}
+
+#Feedback .customer-tab .icon i {
+    font-size: 24px;
+    color: #777777;
+    transition: 0.4s;
+}
+
+#Feedback .customer-tab .customer-text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1db0ed;
+}
+
+#Feedback .customer-tab .customer-text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+}
+
+/*#Feedback .customer-tab:hover{*/
+/*    background: #fff;*/
+/*    border-top: 3px solid #1db0ed;*/
+/*    border-bottom: 3px solid #1db0ed;*/
+/*}*/
+/*#Feedback .customer-tab:hover .images{*/
+/*    background: #1db0ed;*/
+/*}*/
+/*#Feedback .customer-tab:hover .icon i{*/
+/*    color: #222222;*/
+/*}*/
+#Feedback .slick-slide {
+    outline: none;
+}
+
+#Feedback .slick-slide img {
+    display: inline-block;
+}
+
+#Feedback .slick-current .customer-tab {
+    background: #fff;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+}
+
+#Feedback .slick-current .customer-tab .images {
+    background: #1db0ed;
+}
+
+#Feedback .slick-current .customer-tab .icon i {
+    color: #222222;
+}
+
+/*================================================================== test-part-End*/
 /*                                                                                =============================================================================================*/
 
 
