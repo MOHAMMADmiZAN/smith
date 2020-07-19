@@ -569,6 +569,8 @@ nav {
     margin-top: 60px;
     transition: 0.4s;
     border-radius: 5px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 #Feedback .customer-tab .images {
