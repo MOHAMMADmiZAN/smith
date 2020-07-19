@@ -122,7 +122,7 @@ bdy.scrollspy({
 });
 
 // animation scroll js
-$('.nav-item a').on('click', function () {
+$(' .navbar a').on('click', function () {
     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
         let target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -140,6 +140,11 @@ $('.nav-item a').on('click', function () {
 win.scroll(() => win.scrollTop() > 100 ? b2b.fadeIn() + b2b.addClass('animate__animated animate__flip animate__slower 2s') : b2b.fadeOut());
 //back to top effect//
 b2b.click(() => html_body.animate({scrollTop: 0}, 2500));
+
+
+/* always close responsive nav after click */
+$('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
+
 
 
 
