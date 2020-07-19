@@ -20,7 +20,7 @@ $(document).ready(() => {
 });
 
 $('.pro-slider').slick({
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
@@ -29,6 +29,8 @@ $('.pro-slider').slick({
     autoplaySpeed: 2000,
     prevArrow: '<i class="fas fa-angle-double-left prev"></i>',
     nextArrow: '<i class="fas fa-angle-double-right next"></i>',
+    centerMode: true,
+    centerPadding: '0',
     responsive: [
         {
             breakpoint: 1024,
@@ -58,9 +60,7 @@ $('.pro-slider').slick({
         // instead of a settings object
     ]
 });
-//wow js //
-new WOW().init();
-// wow js //
+
 
 
 
