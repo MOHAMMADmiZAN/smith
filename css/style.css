@@ -725,8 +725,8 @@ nav {
     border-radius: 10px;
     transition: 0.4s;
     margin: 15px;
-    width: 150px;
     background: transparent;
+    width: 200px;
 }
 
 #contact .get-part input:hover {
