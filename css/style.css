@@ -41,42 +41,50 @@ nav {
     position: relative;
     transition: .4s;
     margin: 0 15px;
+    border-top: 1px solid #1db0ed;
+    border-bottom: 1px solid #1db0ed;
+    border-radius: 5px;
 
 }
 
-.navbar-nav .nav-item a::before {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 2px;
-    height: 0;
-    content: "";
-    background-color: #1db0ed;
-    transition: .4s;
-}
+/*.navbar-nav .nav-item a::before {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    width: 2px;*/
+/*    height: 0;*/
+/*    content: "";*/
+/*    background-color: #1db0ed;*/
+/*    transition: .4s;*/
+/*}*/
 
-.navbar-nav .nav-item a::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    content: "";
-    background-color: #1db0ed;
-    transition: .4s;
-}
+/*.navbar-nav .nav-item a::after {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 0;*/
+/*    height: 2px;*/
+/*    content: "";*/
+/*    background-color: #1db0ed;*/
+/*    transition: .4s;*/
+/*}*/
 
 .navbar-nav .nav-item a:hover {
     color: #1db0ed;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+    /*border-left: 3px solid #1db0ed;*/
+    /*border-right: 3px solid #1db0ed;*/
+    border-radius: 5px;
 }
 
-.navbar-nav .nav-item a:hover::before {
-    height: 40%;
-}
+/*.navbar-nav .nav-item a:hover::before {*/
+/*    height: 40%;*/
+/*}*/
 
-.navbar-nav .nav-item a:hover::after {
-    width: 40%;
-}
+/*.navbar-nav .nav-item a:hover::after {*/
+/*    width: 40%;*/
+/*}*/
 
 /*.navbar-nav .nav-item .active {*/
 /*    color: #1db0ed;*/
