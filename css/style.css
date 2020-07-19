@@ -468,6 +468,37 @@ nav {
 #portfolio .portfolio-images .slick-slide {
     outline: none;
 }
+
+#portfolio .portfolio-images .prev {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translateX(-50%);
+    color: rgba(29, 176, 237, 0.5);
+    font-size: 32px;
+}
+
+#portfolio .portfolio-images .next {
+    position: absolute;
+    top: 50%;
+    left: 1230px;
+    transform: translateX(-50%);
+    color: rgba(29, 176, 237, 0.5);
+    font-size: 32px;
+}
+
+#portfolio .portfolio-images .prev:hover {
+    color: #1db0ed;
+    background: transparent;
+    border: none;
+}
+
+#portfolio .portfolio-images .next:hover {
+    color: #1db0ed;
+    background: transparent;
+    border: none;
+}
+
 /*================================================================== portfolio-part-End*/
 /*                                                                                =============================================================================================*/
 
