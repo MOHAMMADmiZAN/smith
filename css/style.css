@@ -457,8 +457,12 @@ nav {
     color: #ffffff;
     font-size: 24px;
     transition: 0.4s;
-    padding: 10px;
     border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
 
 }
 
@@ -469,7 +473,6 @@ nav {
 #portfolio .portfolio-images i:hover {
     background: #ffffff;
     color: #1db0ed;
-    border: 2px solid #f7f7f7;
 }
 
 #portfolio .portfolio-images .slick-slide {
