@@ -58,7 +58,9 @@ $('.pro-slider').slick({
         // instead of a settings object
     ]
 });
-
+//wow js //
+new WOW().init();
+// wow js //
 
 
 
