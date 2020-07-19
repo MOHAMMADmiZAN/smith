@@ -161,7 +161,7 @@ nav {
     color: #ffffff;
     background: #1db0ed;
     letter-spacing: 2px;
-    box-shadow: 0 35px 68px 7px #1db0ed;
+
 }
 
 #banner .overlay .social {
@@ -281,7 +281,10 @@ nav {
     color: #ffffff;
     background: #1db0ed;
     letter-spacing: 2px;
-    box-shadow: 0 35px 68px 7px #1db0ed;
+}
+
+#about .skill-part .counter {
+    transition: 0.4s;
 }
 
 #about .skill-part .counter .icon i {
@@ -311,7 +314,8 @@ nav {
 
 #about .skill-part .counter:hover {
     background: #ffffff;
-    box-shadow: 0 35px 68px 7px #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+    border-top: 3px solid #1db0ed;
 }
 
 #about .skill-part .counter:hover i {
@@ -451,8 +455,7 @@ nav {
     font-size: 24px;
     transition: 0.4s;
     padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 50%;
 
 }
 
@@ -463,6 +466,7 @@ nav {
 #portfolio .portfolio-images i:hover {
     background: #ffffff;
     color: #1db0ed;
+    border: 2px solid #f7f7f7;
 }
 
 #portfolio .portfolio-images .slick-slide {
