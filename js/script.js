@@ -4,6 +4,7 @@ $('.up').counterUp({
     time: 2500
 });
 //skill-counter-part End//
+///portfolio-part-start////
 $(document).ready(() => {
     $('.venobox').venobox(
         {
@@ -18,7 +19,7 @@ $(document).ready(() => {
         }
     );
 });
-
+///pro-slider-part////
 $('.pro-slider').slick({
     dots: true,
     infinite: true,
@@ -61,7 +62,7 @@ $('.pro-slider').slick({
     ]
 });
 
-
+///portfolio-part-End////
 
 
 
