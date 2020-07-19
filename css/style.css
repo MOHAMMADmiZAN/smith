@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 body {
     overflow-x: hidden;
+    background: url("../images/bg2.png") no-repeat center;
+    background-size: cover;
 }
 
 /*================================================================== Nav-bar-start*/
@@ -255,8 +257,10 @@ nav {
     margin: 30px 0;
     cursor: pointer;
     transition: 0.4s;
-    background: rgba(29, 176, 237, 0.1);
-    border-radius: 5px;
+    background: transparent;
+    border-radius: 30px;
+    border-top: 1px solid #1db0ed;
+    border-bottom: 1px solid #1db0ed;
 }
 
 #about .right-side .button {
@@ -280,10 +284,6 @@ nav {
     color: #ffffff;
     background: #1db0ed;
     letter-spacing: 2px;
-}
-
-#about .skill-part .counter {
-    transition: 0.4s;
 }
 
 #about .skill-part .counter .icon i {
@@ -351,9 +351,11 @@ nav {
     margin-top: 30px;
     text-align: center;
     padding: 15px;
-    background: rgba(29, 176, 237, 0.1);
-    border-radius: 5px;
+    background: transparent;
+    border-radius: 30px;
     transition: 0.4s;
+    border-top: 1px solid #1db0ed;
+    border-bottom: 1px solid #1db0ed;
 
 
 }
@@ -381,20 +383,11 @@ nav {
 
 #services .service-tab:hover {
     background: #ffffff;
-    animation: skill 2s linear infinite;
+    border-bottom: 3px solid #1db0ed;
+    border-top: 3px solid #1db0ed;
 }
 
-@keyframes skill {
-    0% {
-        border-bottom: 4px solid #1db0ed;
-    }
-    50% {
-        border-bottom: 8px solid #1db0ed;
-    }
-    100% {
-        border-bottom: 16px solid #1db0ed;
-    }
-}
+
 
 #services .service-tab:hover i {
     color: #1db0ed;
@@ -580,7 +573,7 @@ nav {
     text-align: center;
     margin-top: 60px;
     transition: 0.4s;
-    border-radius: 5px;
+    border-radius: 30px;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }
