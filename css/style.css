@@ -488,6 +488,7 @@ nav {
     transform: translateX(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
+    cursor: pointer;
 }
 
 #portfolio .portfolio-images .next {
@@ -497,6 +498,7 @@ nav {
     transform: translateX(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
+    cursor: pointer;
 }
 
 #portfolio .portfolio-images .prev:hover {
@@ -504,6 +506,8 @@ nav {
     background: transparent;
     border-left: 2px solid #1db0ed;
     border-right: 2px solid #1db0ed;
+    border-top: none;
+    border-bottom: none;
 
 }
 
@@ -512,6 +516,8 @@ nav {
     background: transparent;
     border-left: 2px solid #1db0ed;
     border-right: 2px solid #1db0ed;
+    border-top: none;
+    border-bottom: none;
 }
 
 #portfolio .portfolio-images .pro-slider ul {
