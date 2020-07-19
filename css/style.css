@@ -806,6 +806,7 @@ nav {
     border-right: 2px solid #1db0ed;
     border-radius: 50%;
     transition: 0.4s;
+    border-left: 2px solid #1db0ed;
 }
 
 #contact-bottom .contact-details .icon {
@@ -837,10 +838,6 @@ nav {
 
 }
 
-#contact-bottom .contact-details .items:hover {
-    border-left: 2px solid #1db0ed;
-    border-radius: 50%;
-}
 
 #contact-bottom .contact-details .icon a:hover {
     color: #1db0ed;
