@@ -86,9 +86,14 @@ nav {
 /*    width: 40%;*/
 /*}*/
 
-/*.navbar-nav .nav-item .active {*/
-/*    color: #1db0ed;*/
-/*}*/
+.navbar-nav .nav-item .active {
+    color: #1db0ed;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+    /*border-left: 3px solid #1db0ed;*/
+    /*border-right: 3px solid #1db0ed;*/
+    border-radius: 5px;
+}
 
 /*.navbar-nav .nav-item .active::after {*/
 /*    width: 40%;*/
@@ -98,7 +103,11 @@ nav {
 /*.navbar-nav .nav-item .active::before{*/
 /*    height: 40%*/
 /*}*/
-
+.sticky {
+    position: fixed !important;
+    background: url("../images/bg2.png") no-repeat center;
+    background-size: cover;
+}
 
 /*================================================================== Nav-bar-End*/
 /*                                                                                =============================================================================================*/
@@ -852,8 +861,7 @@ nav {
 
 /*================================================================== copy-right-start*/
 /*                                                                                =============================================================================================*/
-/*================================================================== copy-right-start*/
-/*                                                                                =============================================================================================*/
+
 
 #copy {
     background: url("../images/bg2.png") no-repeat center;
@@ -870,5 +878,32 @@ nav {
 
 }
 
+/*================================================================== copy-right-end*/
+/*                                                                                =============================================================================================*/
+.back-to-top i {
+    color: #777777;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    border-top: 2px solid #1db0ed;
+    border-bottom: 2px solid #1db0ed;
+    transition: 0.4s;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    display: none;
+    z-index: 222;
 
+}
+
+.back-to-top i:hover {
+    color: #1db0ed;
+    border-left: 2px solid #1db0ed;
+    border-right: 2px solid #1db0ed;
+    border-top: none;
+    border-bottom: none;
+}
 
