@@ -60,7 +60,7 @@ $('.pro-slider').slick({
     ]
 });
 
-///portfolio-part-End////
+///Test-part-End////
 $('.feed-slider').slick({
     dots: false,
     infinite: true,
@@ -102,7 +102,7 @@ $('.feed-slider').slick({
     ]
 });
 
-///portfolio-part-End////
+///test-part-End////
 
 
 
