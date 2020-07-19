@@ -96,7 +96,7 @@ nav {
 /*================================================================== Banner-part-start*/
 /*                                                                                =============================================================================================*/
 #banner {
-    background: url("../images/banner-bg.png") no-repeat center;
+    background: url("../images/bg2.png") no-repeat center;
     background-size: cover;
 
 }
@@ -759,11 +759,94 @@ nav {
     letter-spacing: 2px;
 }
 
+#contact-bottom {
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
+    padding: 120px;
+    text-align: center;
+}
+
+#contact-bottom .contact-details {
+    padding-top: 60px;
+
+}
+
+#contact-bottom .contact-details .items {
+    border-right: 2px solid #1db0ed;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+#contact-bottom .contact-details .icon {
+    padding: 30px;
+}
+
+#contact-bottom .contact-details .icon a {
+    color: #777777;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    border-top: 2px solid #1db0ed;
+    border-bottom: 2px solid #1db0ed;
+    display: inline-block;
+    transition: 0.4s;
+
+}
+
+#contact-bottom .contact-details .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777777;
+    padding-bottom: 15px;
+    transition: 0.4s;
+
+}
+
+#contact-bottom .contact-details .items:hover {
+    border-left: 2px solid #1db0ed;
+    border-radius: 50%;
+}
+
+#contact-bottom .contact-details .icon a:hover {
+    color: #1db0ed;
+    border-left: 2px solid #1db0ed;
+    border-right: 2px solid #1db0ed;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+#contact-bottom .contact-details .items:hover .text h4 {
+    color: #222222;
+}
+
 /*================================================================== Contact-part-End*/
 /*                                                                                =============================================================================================*/
 
 
+/*================================================================== copy-right-start*/
+/*                                                                                =============================================================================================*/
+/*================================================================== copy-right-start*/
+/*                                                                                =============================================================================================*/
 
+#copy {
+    background: url("../images/bg2.png") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+}
+
+#copy .text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #222222;
+
+}
 
 
 
