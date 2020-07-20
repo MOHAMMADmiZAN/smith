@@ -89,6 +89,7 @@
     #about .right-side .text p {
         font-size: 14px;
         line-height: 24px;
+        text-align: left;
     }
 
     #about .right-side .button a {
@@ -317,7 +318,7 @@
     }
 
     #about .left-side img {
-        width: 350px;
+        width: 300px;
     }
 
     #about .right-side .text {
@@ -336,6 +337,7 @@
     #about .right-side .text p {
         font-size: 14px;
         line-height: 24px;
+        text-align: left;
     }
 
     #about .right-side .button a {
@@ -500,3 +502,151 @@
 
 
 /*=================== small-part-end==============================*/
+/*=================== medium-part-start==============================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    nav {
+        background: url("../images/bg2.png") center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        outline: none;
+        color: #1db0ed;
+        border-top: 1px solid #1db0ed;
+        border-bottom: 1px solid #1db0ed;
+        border-radius: 10px;
+    }
+
+
+    nav .navbar-toggler:hover {
+        outline: none;
+        color: #1db0ed;
+        border-top: 3px solid #1db0ed;
+        border-bottom: 3px solid #1db0ed;
+
+    }
+
+    .navbar-nav .nav-item a {
+        border: none;
+        display: block;
+    }
+
+    #banner .banner-part .img {
+        margin-top: 70px;
+    }
+
+
+    #banner .banner-part .text {
+        text-align: right;
+
+    }
+
+    #banner .overlay .text h5 {
+        margin-right: 0;
+    }
+
+    #banner .banner-part .button {
+        margin-top: 30px;
+    }
+
+    #banner .overlay .button a {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social h3 {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social {
+        margin-top: 30px;
+    }
+
+    #about .left-side {
+        justify-content: center;
+    }
+
+    #about .left-side img {
+        width: 350px;
+    }
+
+    #about .right-side .text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about .right-side .text h3 {
+        font-size: 16px;
+    }
+
+    #about .right-side .text h2 {
+        font-size: 24px;
+    }
+
+    #about .right-side .text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    #about .right-side .button a {
+        font-size: 16px;
+        display: block;
+    }
+
+    #about .skill-part .counter .name {
+        font-size: 16px;
+    }
+
+    #about .skill-part .counter .count {
+        font-size: 14px;
+    }
+
+    #about .skill-part .counter .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-title h3 {
+        font-size: 16px;
+    }
+
+    #services .service-title h2 {
+        font-size: 24px;
+    }
+
+    #services .service-tab .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-tab .name h5 {
+        font-size: 16px;
+    }
+
+    #services .service-tab .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #portfolio {
+        text-align: center;
+    }
+
+    #portfolio .text h3 {
+        font-size: 16px;
+    }
+
+    #portfolio .text h2 {
+        font-size: 24px;
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+/*=================== medium-part-stop==============================*/

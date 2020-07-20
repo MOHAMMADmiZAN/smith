@@ -511,8 +511,8 @@ nav {
 #portfolio .portfolio-images .prev {
     position: absolute;
     top: 50%;
-    left: -100px;
-    transform: translateY(-50%);
+    left: -30px;
+    transform: translateY(50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;
@@ -521,8 +521,9 @@ nav {
 #portfolio .portfolio-images .next {
     position: absolute;
     top: 50%;
-    left: 1230px;
-    transform: translateY(-50%);
+    left: 1130px;
+    right: 37px;
+    transform: translateY(50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;
