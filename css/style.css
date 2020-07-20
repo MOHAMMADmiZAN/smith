@@ -41,8 +41,8 @@ nav {
     position: relative;
     transition: .4s;
     margin: 0 15px;
-    border-top: 1px solid #1db0ed;
-    border-bottom: 1px solid #1db0ed;
+    border-left: 1px solid #1db0ed;
+    border-right: 1px solid #1db0ed;
     border-radius: 5px;
 
 }
@@ -73,8 +73,8 @@ nav {
     color: #1db0ed;
     border-top: 3px solid #1db0ed;
     border-bottom: 3px solid #1db0ed;
-    /*border-left: 3px solid #1db0ed;*/
-    /*border-right: 3px solid #1db0ed;*/
+    border-left: none;
+    border-right: none;
     border-radius: 5px;
 }
 
@@ -90,8 +90,8 @@ nav {
     color: #1db0ed;
     border-top: 3px solid #1db0ed;
     border-bottom: 3px solid #1db0ed;
-    /*border-left: 3px solid #1db0ed;*/
-    /*border-right: 3px solid #1db0ed;*/
+    border-left: none;
+    border-right: none;
     border-radius: 5px;
 }
 
