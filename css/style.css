@@ -107,6 +107,13 @@ nav {
     position: fixed !important;
     background: url("../images/bg2.png") no-repeat center;
     background-size: cover;
+    border-bottom: 1px solid #1db0ed;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.sticky:hover {
+    border-bottom: 3px solid #1db0ed;
 }
 
 /*================================================================== Nav-bar-End*/
