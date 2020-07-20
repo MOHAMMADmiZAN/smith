@@ -1,0 +1,220 @@
+/*=================== extra-small-part-start==============================*/
+@media (min-width: 320px ) and (max-width: 575px ) {
+    nav {
+        background: url("../images/bg2.png") center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        outline: none;
+        color: #1db0ed;
+        border-top: 1px solid #1db0ed;
+        border-bottom: 1px solid #1db0ed;
+        border-radius: 10px;
+    }
+
+
+    nav .navbar-toggler:hover {
+        outline: none;
+        color: #1db0ed;
+        border-top: 3px solid #1db0ed;
+        border-bottom: 3px solid #1db0ed;
+
+    }
+
+    .navbar-nav .nav-item a {
+        border: none;
+        display: block;
+    }
+
+    #banner .banner-part .img {
+        margin-top: 70px;
+    }
+
+    #banner .banner-part .text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #banner .overlay .text h5 {
+        margin-right: 30px;
+    }
+
+    #banner .banner-part .button {
+        margin-top: 30px;
+    }
+
+    #banner .overlay .button a {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social h3 {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social {
+        margin-top: 30px;
+    }
+
+    #about {
+        padding: 60px 0;
+    }
+
+    #about .left-side {
+        justify-content: center;
+    }
+
+    #about .left-side img {
+        width: 300px;
+    }
+
+    #about .right-side .text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about .right-side .text h3 {
+        font-size: 16px;
+    }
+
+    #about .right-side .text h2 {
+        font-size: 24px;
+    }
+
+    #about .right-side .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #about .right-side .button a {
+        font-size: 16px;
+        display: block;
+    }
+
+    #services {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #services .service-title h3 {
+        font-size: 16px;
+    }
+
+    #services .service-title h2 {
+        font-size: 24px;
+    }
+
+    #portfolio {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #portfolio .text h3 {
+        font-size: 16px;
+    }
+
+    #portfolio .text h2 {
+        font-size: 24px;
+    }
+
+    #portfolio .portfolio-images .prev {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #portfolio .portfolio-images .next {
+        top: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Feedback {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #Feedback h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .text h2 {
+        font-size: 20px;
+    }
+
+    #Feedback .customer-tab {
+        margin-top: 30px;
+    }
+
+    #Feedback .customer-tab .customer-text h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .customer-tab .customer-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #Feedback .customer-tab .icon i {
+        font-size: 20px;
+    }
+
+    .back-to-top i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #contact .get-part .text {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    #contact .get-part .text h2 {
+        font-size: 20px;
+
+    }
+
+    #contact .get-part input {
+        margin: 15px 0;
+    }
+
+    #contact .get-part textarea {
+        margin: 15px 0;
+    }
+
+    #contact-bottom {
+        padding: 60px 0;
+    }
+
+    #contact-bottom .contact-details {
+        padding-top: 30px;
+    }
+
+    #contact-bottom .contact-details .icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact-bottom .contact-details .text h4 {
+        font-size: 16px;
+    }
+
+}
+
+
+/*=================== extra-small-part-start==============================*/

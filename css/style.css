@@ -139,7 +139,7 @@ nav {
 }
 
 #banner .overlay .text {
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 #banner .overlay .text h6 {
@@ -166,7 +166,7 @@ nav {
 }
 
 #banner .button {
-    margin-top: 100px;
+    margin-top: 60px;
     text-align: right;
     margin-right: 25px;
 }
@@ -195,7 +195,7 @@ nav {
 }
 
 #banner .overlay .social {
-    margin-top: 50px;
+    margin-top: 60px;
     text-align: right;
 }
 
@@ -233,7 +233,7 @@ nav {
 
 
 #about {
-    padding: 120px;
+    padding: 120px 0;
     box-shadow: 0 0 5px 0 #777777;
 
 
@@ -274,23 +274,6 @@ nav {
     line-height: 26px;
 
 }
-
-#about .skill-part {
-    margin-top: 30px;
-}
-
-#about .skill-part .counter {
-    text-align: center;
-    padding: 30px 0;
-    margin: 30px 0;
-    cursor: pointer;
-    transition: 0.4s;
-    background: transparent;
-    border-radius: 30px;
-    border-top: 1px solid #1db0ed;
-    border-bottom: 1px solid #1db0ed;
-}
-
 #about .right-side .button {
     margin-top: 30px;
 }
@@ -316,6 +299,22 @@ nav {
     background: url(../images/bg2.png) no-repeat center;
     background-size: cover;
     letter-spacing: 2px;
+}
+
+#about .skill-part {
+    margin-top: 30px;
+}
+
+#about .skill-part .counter {
+    text-align: center;
+    padding: 30px 0;
+    margin: 30px 0;
+    cursor: pointer;
+    transition: 0.4s;
+    background: transparent;
+    border-radius: 30px;
+    border-top: 1px solid #1db0ed;
+    border-bottom: 1px solid #1db0ed;
 }
 
 #about .skill-part .counter .icon i {
@@ -359,7 +358,7 @@ nav {
 /*================================================================== Service-part-start*/
 /*                                                                                =============================================================================================*/
 #services {
-    padding: 120px;
+    padding: 120px 0;
 
 }
 
@@ -432,7 +431,7 @@ nav {
 /*                                                                                =============================================================================================*/
 
 #portfolio {
-    padding: 120px;
+    padding: 120px 0;
     box-shadow: 0 0 5px 0 #777777;
 
 }
@@ -446,6 +445,7 @@ nav {
     padding: 0;
     background: url(../images/bg2.png) no-repeat center;
     background-size: cover;
+    text-align: center;
 
 }
 
@@ -512,7 +512,7 @@ nav {
     position: absolute;
     top: 50%;
     left: -100px;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;
@@ -522,7 +522,7 @@ nav {
     position: absolute;
     top: 50%;
     left: 1230px;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;
@@ -590,8 +590,7 @@ nav {
 /*================================================================== test-part-start*/
 /*                                                                                =============================================================================================*/
 #Feedback {
-    padding: 120px;
-    border-radius: 5px;
+    padding: 120px 0;
 }
 
 #Feedback .text h3 {
@@ -701,7 +700,7 @@ nav {
 /*================================================================== Contact-part-Start*/
 /*                                                                                =============================================================================================*/
 #contact {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 #contact .get-part .text {
@@ -813,7 +812,7 @@ nav {
 #contact-bottom {
     background: url(../images/bg2.png) no-repeat center;
     background-size: cover;
-    padding: 120px;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -911,7 +910,7 @@ nav {
     border-bottom: 2px solid #1db0ed;
     transition: 0.4s;
     position: fixed;
-    right: 100px;
+    right: 20px;
     bottom: 100px;
     display: none;
     z-index: 222;

@@ -48,10 +48,13 @@ $('.pro-slider').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                dots: false,
+                fade: true,
+                arrows: true,
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -72,6 +75,7 @@ $('.feed-slider').slick({
     centerPadding: '0',
     autoplay: true,
     autoplaySpeed: 2000,
+    focusOnSelect: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -90,10 +94,21 @@ $('.feed-slider').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
+                dots: false,
+                infinite: true,
+                speed: 300,
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '0',
+                autoplay: true,
+                autoplaySpeed: 2000,
+                focusOnSelect: true,
+                fade: true,
+
             }
         }
         // You can unslick at a given breakpoint now by adding:
