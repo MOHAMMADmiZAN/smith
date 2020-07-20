@@ -169,16 +169,20 @@ nav {
     font-weight: 500;
     font-size: 20px;
     padding: 10px 15px;
-    border: 3px solid #1db0ed;
     color: #222;
     border-radius: 10px;
     transition: 0.4s;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+    border-left: 1px solid #1db0ed;
+    border-right: 1px solid #1db0ed;
 
 }
 
 #banner .overlay .button a:hover {
-    color: #ffffff;
-    background: #1db0ed;
+    color: #1db0ed;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
     letter-spacing: 2px;
 
 }
@@ -289,17 +293,21 @@ nav {
     font-weight: 500;
     font-size: 20px;
     padding: 10px 15px;
-    border: 3px solid #1db0ed;
     color: #222;
     border-radius: 10px;
     transition: 0.4s;
     margin: 15px;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
+    border-left: 1px solid #1db0ed;
+    border-right: 1px solid #1db0ed;
 
 }
 
 #about .right-side .button a:hover {
-    color: #ffffff;
-    background: #1db0ed;
+    color: #1db0ed;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
     letter-spacing: 2px;
 }
 
@@ -429,6 +437,8 @@ nav {
     transition: 0.4s;
     margin-top: 60px;
     padding: 0;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
 
 }
 
@@ -558,12 +568,13 @@ nav {
 }
 
 #portfolio .portfolio-images .pro-slider ul .slick-active button {
-    background: #1db0ed;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
     border-top: none;
     border-bottom: none;
     border-radius: 30px;
-    border-left: 3px solid #1db0ed;
-    border-right: 3px solid #1db0ed;
+    border-left: 4px solid #1db0ed;
+    border-right: 4px solid #1db0ed;
 }
 
 /*================================================================== portfolio-part-End*/
@@ -751,7 +762,8 @@ nav {
     font-weight: 500;
     font-size: 20px;
     padding: 10px 15px;
-    border: 3px solid #1db0ed;
+    border-top: 3px solid #1db0ed;
+    border-bottom: 3px solid #1db0ed;
     color: #222222;
     border-radius: 10px;
     transition: 0.4s;
@@ -785,8 +797,9 @@ nav {
 }
 
 #contact .get-part .submit:hover {
-    color: #ffffff;
-    background: #1db0ed;
+    color: #1db0ed;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
     letter-spacing: 2px;
 }
 
@@ -841,10 +854,12 @@ nav {
 
 #contact-bottom .contact-details .icon a:hover {
     color: #1db0ed;
-    border-left: 2px solid #1db0ed;
-    border-right: 2px solid #1db0ed;
+    border-left: 3px solid #1db0ed;
+    border-right: 3px solid #1db0ed;
     border-top: none;
     border-bottom: none;
+    background: url(../images/bg2.png) no-repeat center;
+    background-size: cover;
 
 }
 
