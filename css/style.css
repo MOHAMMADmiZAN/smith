@@ -152,7 +152,7 @@ nav {
 #banner .overlay .text h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 68px;
     color: #1db0ed;
 }
 
@@ -510,9 +510,9 @@ nav {
 
 #portfolio .portfolio-images .prev {
     position: absolute;
-    top: 50%;
-    left: -30px;
-    transform: translateY(50%);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;
@@ -520,10 +520,9 @@ nav {
 
 #portfolio .portfolio-images .next {
     position: absolute;
-    top: 50%;
-    left: 1130px;
-    right: 37px;
-    transform: translateY(50%);
+    top: 420px;
+    left: 50%;
+    transform: translateX(-50%);
     color: rgba(29, 176, 237, 0.5);
     font-size: 32px;
     cursor: pointer;

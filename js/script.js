@@ -21,7 +21,7 @@ $(document).ready(() => {
 });
 ///pro-slider-part////
 $('.pro-slider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
@@ -37,7 +37,7 @@ $('.pro-slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false,
             }
         },
         {
@@ -82,10 +82,17 @@ $('.feed-slider').slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                dots: false,
                 infinite: true,
-                dots: true
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '0',
+                autoplay: true,
+                autoplaySpeed: 2000,
+                focusOnSelect: true,
             }
         },
         {
