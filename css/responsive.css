@@ -538,6 +538,10 @@
 
     }
 
+    #banner .overlay .text h1 {
+        font-size: 60px;
+    }
+
     #banner .overlay .text h5 {
         margin-right: 0;
     }
@@ -727,3 +731,24 @@
 
 
 /*=================== medium-part-stop==============================*/
+
+/*=================== large-part-start================================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner .overlay .text h6 {
+        font-size: 24px;
+    }
+
+    #banner .overlay .text h1 {
+        font-size: 55px;
+    }
+
+
+    #about .left-side img {
+        width: 480px;
+    }
+
+}
+
+
+/*==================================== large part- end ================================*/
