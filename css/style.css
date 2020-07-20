@@ -409,7 +409,7 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 #services .service-tab:hover {
@@ -823,7 +823,7 @@ nav {
 
 #contact-bottom .contact-details .items {
     border-right: 2px solid #1db0ed;
-    border-radius: 50%;
+    border-radius: 10%;
     transition: 0.4s;
     border-left: 2px solid #1db0ed;
 }

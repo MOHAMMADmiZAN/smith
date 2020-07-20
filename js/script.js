@@ -41,10 +41,12 @@ $('.pro-slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
             }
         },
         {
@@ -87,10 +89,19 @@ $('.feed-slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
+                dots: false,
+                infinite: true,
+                speed: 300,
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '0',
+                autoplay: true,
+                autoplaySpeed: 2000,
+                focusOnSelect: true,
             }
         },
         {
