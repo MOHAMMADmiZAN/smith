@@ -215,6 +215,7 @@ nav {
 #banner .overlay .social a {
     color: #777777;
     padding: 10px;
+    transition: 0.4s;
 
 }
 
@@ -224,6 +225,7 @@ nav {
 
 #banner .overlay .social a:hover {
     color: #1db0ed;
+    padding: 15px;
 }
 
 /*================================================================== Banner-part-End*/
