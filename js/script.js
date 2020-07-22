@@ -179,6 +179,10 @@ b2b.click(() => html_body.animate({scrollTop: 0}, 2500));
 $('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
 
 
+//// aos animation///
+AOS.init();
+
+
 
 
 
